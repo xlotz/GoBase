@@ -5,14 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="64fa3b4f-8e92-4d27-a03e-c5a177e4bb46" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/10_Map/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/12_Func/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/14_Method/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/10_Map/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/10_Map/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/11_Point/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/11_Point/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/12_Func/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/12_Func/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/13_Struct/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/13_Struct/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/14_Method/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/14_Method/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/15_Interface/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/15_Interface/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/15_Interface/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/16_Generic/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/16_Generic/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,7 +67,7 @@
       <recent name="$PROJECT_DIR$/src/20_File" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Build.go build main.go (4)">
+  <component name="RunManager" selected="Go Build.go build main.go (5)">
     <configuration name="go build main.go (1)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="GoBase" />
       <working_directory value="$PROJECT_DIR$" />
@@ -104,12 +100,12 @@
       <filePath value="$PROJECT_DIR$/src/14_Method/main.go" />
       <method v="2" />
     </configuration>
-    <configuration name="go build main.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build main.go (5)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="GoBase" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/src/9_Str/main.go" />
+      <filePath value="$PROJECT_DIR$/src/15_Interface/main.go" />
       <method v="2" />
     </configuration>
     <list>
@@ -117,15 +113,15 @@
       <item itemvalue="Go Build.go build main.go (2)" />
       <item itemvalue="Go Build.go build main.go (3)" />
       <item itemvalue="Go Build.go build main.go (4)" />
-      <item itemvalue="Go Build.go build main.go" />
+      <item itemvalue="Go Build.go build main.go (5)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Build.go build main.go (5)" />
         <item itemvalue="Go Build.go build main.go (4)" />
         <item itemvalue="Go Build.go build main.go (3)" />
         <item itemvalue="Go Build.go build main.go (2)" />
         <item itemvalue="Go Build.go build main.go (1)" />
-        <item itemvalue="Go Build.go build main.go" />
       </list>
     </recent_temporary>
   </component>
@@ -138,7 +134,7 @@
       <option name="presentableId" value="Default" />
       <updated>1726748944159</updated>
       <workItem from="1726748947278" duration="7979000" />
-      <workItem from="1728357398363" duration="37862000" />
+      <workItem from="1728357398363" duration="42015000" />
     </task>
     <servers />
   </component>
