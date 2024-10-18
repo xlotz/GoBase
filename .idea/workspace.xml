@@ -5,43 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="64fa3b4f-8e92-4d27-a03e-c5a177e4bb46" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/16_Generic/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/17_Iter/iterx/Iterx.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/17_Iter/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/19_Error/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/20_File/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/21_Reflect/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/22_Concurrent/chan_1.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/22_Concurrent/chan_2.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/22_Concurrent/chan_3.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/22_Concurrent/chan_5.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/22_Concurrent/chan_6.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/22_Concurrent/chan_7.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/22_Concurrent/context_1.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/22_Concurrent/context_2.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/22_Concurrent/context_3.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/22_Concurrent/context_4.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/22_Concurrent/coroutine_1.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/22_Concurrent/lock_1.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/22_Concurrent/lock_2.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/22_Concurrent/lock_3.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/22_Concurrent/lock_4.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/22_Concurrent/lock_5.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/22_Concurrent/sync_1.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/22_Concurrent/sync_2.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/22_Concurrent/sync_3.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/22_Concurrent/sync_4.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/22_Concurrent/waitgroup.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GoBase.iml" beforeDir="false" afterPath="$PROJECT_DIR$/GoBase.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/16_Generic/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/16_Generic/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/17_Iter/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/17_Iter/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/18_Type_2/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/18_Type_2/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/19_Error/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/19_Error/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/20_File/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/20_File/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/21_Reflect/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/21_Reflect/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/22_Concurrent/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/22_Concurrent/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/23_model/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/23_model/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -206,7 +170,7 @@
       <workItem from="1729217878109" duration="132000" />
       <workItem from="1729218028509" duration="573000" />
       <workItem from="1729218622151" duration="1132000" />
-      <workItem from="1729219759941" duration="8918000" />
+      <workItem from="1729219759941" duration="9230000" />
     </task>
     <servers />
   </component>
