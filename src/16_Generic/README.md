@@ -79,18 +79,82 @@
     类型集主要用于类型约束，不能作为类型声明。
 
 ### 并集
+    接口类型SignedInt类型集
+    type SingedInt interface {
+        int8|int16|int|int32|int64
+    }
+    type UnSignedInt interface {
+        uint8|uint16|uint32|uint64
+    }
+    type Integer interface {
+        SignedInt|UnSignedInt
+    }
     
 ### 交集
+    非空接口的类型集
+    type SignedInt interface {
+        int8 | int16 | int | int32 | int64
+    }
+    
+    type Integer interface {
+        int8 | int16 | int | int32 | int64 | uint8 | uint16 | uint | uint32 | uint64
+    }
+    
+    type Number interface {
+        SignedInt
+        Integer
+    }
+
 ### 空集
+    没有交集
+    type SignedInt interface {
+	    int8 | int16 | int | int32 | int64
+    }
+    
+    type UnsignedInt interface {
+        uint8 | uint16 | uint | uint32 | uint64
+    }
+    
+    type Integer interface {
+        SignedInt
+        UnsignedInt
+    }
+    
 ### 空接口
+    
+    空接口时使用类型集的集合
+    func Do[T interface{}](n T) T {
+        return n
+    }
+    
+    func main() {
+        Do[struct{}](struct{}{})
+        Do[any]("abc")
+    }
+
 ### 底层类型
 
+    使用type声明一个新的类型，底层类型包含在类型集内。
+    
+
 ### 类型集注意
+    带有方法集的接口无法并发类型集
+    类型集无法当做类型实参使用
+    类型集中的交接问题
+    类型集不能直接或间接的并入自身
+    comparable 接口无法并入类型集
+
 
 ## 使用
+    
 
 ### 队列
 
+    声明队列类型
+    type Queue[T any] []T
+
 ### 堆
+    特殊数据结构，可以在O(1)的时间内判断最大或最小值，可以排序的类型。
+    type Comparator[T any] func(a,b T)int
 
 ## 小结

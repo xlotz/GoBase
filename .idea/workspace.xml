@@ -5,10 +5,43 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="64fa3b4f-8e92-4d27-a03e-c5a177e4bb46" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/15_Interface/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/16_Generic/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/17_Iter/iterx/Iterx.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/17_Iter/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/19_Error/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/20_File/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/21_Reflect/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/22_Concurrent/chan_1.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/22_Concurrent/chan_2.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/22_Concurrent/chan_3.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/22_Concurrent/chan_5.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/22_Concurrent/chan_6.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/22_Concurrent/chan_7.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/22_Concurrent/context_1.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/22_Concurrent/context_2.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/22_Concurrent/context_3.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/22_Concurrent/context_4.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/22_Concurrent/coroutine_1.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/22_Concurrent/lock_1.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/22_Concurrent/lock_2.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/22_Concurrent/lock_3.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/22_Concurrent/lock_4.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/22_Concurrent/lock_5.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/22_Concurrent/sync_1.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/22_Concurrent/sync_2.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/22_Concurrent/sync_3.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/22_Concurrent/sync_4.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/22_Concurrent/waitgroup.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/15_Interface/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/15_Interface/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GoBase.iml" beforeDir="false" afterPath="$PROJECT_DIR$/GoBase.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/16_Generic/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/16_Generic/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/17_Iter/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/17_Iter/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/18_Type_2/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/18_Type_2/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/19_Error/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/19_Error/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/20_File/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/20_File/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/21_Reflect/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/21_Reflect/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/22_Concurrent/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/22_Concurrent/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,9 +55,12 @@
       </list>
     </option>
   </component>
-  <component name="GOROOT" url="file://$PROJECT_DIR$/../go/go1.21.5" />
+  <component name="GOROOT" url="file://$PROJECT_DIR$/../go/go1.23.2" />
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GoLibraries">
+    <option name="indexEntireGoPath" value="true" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -35,29 +71,32 @@
   <component name="ProjectId" id="2mI0mfN7WPy6aFPmJDaWL6knFy0" />
   <component name="ProjectViewState">
     <option name="flattenPackages" value="true" />
-    <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultGoTemplateProperty": "Go File",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.go.formatter.settings.were.checked": "true",
-    "RunOnceActivity.go.migrated.go.modules.settings": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "go.import.settings.migrated": "true",
-    "last_opened_file_path": "/Users/xiaoqiang/project/goproject/GoBase",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.2",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultGoTemplateProperty&quot;: &quot;Go File&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.go.formatter.settings.were.checked&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.go.migrated.go.modules.settings&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;configurable..is.expanded&quot;: &quot;true&quot;,
+    &quot;go.import.settings.migrated&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/xiaoqiang/project/goproject/GoBase&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.goide.configuration.GoLibrariesConfigurableProvider&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/24_Test" />
@@ -67,61 +106,84 @@
       <recent name="$PROJECT_DIR$/src/20_File" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Build.go build main.go (5)">
-    <configuration name="go build main.go (1)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="GoBase" />
+  <component name="RunManager" selected="Go Build.go build atom_1.go">
+    <configuration default="true" type="GoApplicationRunConfiguration" factoryName="Go Application" singleton="false">
       <working_directory value="$PROJECT_DIR$" />
-      <kind value="FILE" />
+      <kind value="DIRECTORY" />
+      <package value="HelloWorld" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/src/10_Map/main.go" />
+      <filePath value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
-    <configuration name="go build main.go (2)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build GoBase/" type="GoApplicationRunConfiguration" factoryName="Go Application" singleton="false" nameIsGenerated="true">
       <module name="GoBase" />
       <working_directory value="$PROJECT_DIR$" />
-      <kind value="FILE" />
+      <kind value="DIRECTORY" />
+      <package value="HelloWorld" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/src/11_Point/main.go" />
+      <filePath value="$PROJECT_DIR$/../GoBase|$PROJECT_DIR$/src/22_Concurrent/chan_7.go" />
       <method v="2" />
     </configuration>
-    <configuration name="go build main.go (3)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build atom_1.go" type="GoApplicationRunConfiguration" factoryName="Go Application" singleton="false" temporary="true" nameIsGenerated="true">
       <module name="GoBase" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
+      <package value="HelloWorld" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/src/12_Func/main.go" />
+      <filePath value="$PROJECT_DIR$/src/22_Concurrent/atom_1.go" />
       <method v="2" />
     </configuration>
-    <configuration name="go build main.go (4)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build sync_1.go" type="GoApplicationRunConfiguration" factoryName="Go Application" singleton="false" temporary="true" nameIsGenerated="true">
       <module name="GoBase" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
+      <package value="HelloWorld" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/src/14_Method/main.go" />
+      <filePath value="$PROJECT_DIR$/src/22_Concurrent/sync_1.go" />
       <method v="2" />
     </configuration>
-    <configuration name="go build main.go (5)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build sync_2.go" type="GoApplicationRunConfiguration" factoryName="Go Application" singleton="false" temporary="true" nameIsGenerated="true">
       <module name="GoBase" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
+      <package value="HelloWorld" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/src/15_Interface/main.go" />
+      <filePath value="$PROJECT_DIR$/src/22_Concurrent/sync_2.go" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build sync_3.go" type="GoApplicationRunConfiguration" factoryName="Go Application" singleton="false" temporary="true" nameIsGenerated="true">
+      <module name="GoBase" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <package value="HelloWorld" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/src/22_Concurrent/sync_3.go" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build sync_4.go" type="GoApplicationRunConfiguration" factoryName="Go Application" singleton="false" temporary="true" nameIsGenerated="true">
+      <module name="GoBase" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <package value="HelloWorld" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/src/22_Concurrent/sync_4.go" />
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Go Build.go build main.go (1)" />
-      <item itemvalue="Go Build.go build main.go (2)" />
-      <item itemvalue="Go Build.go build main.go (3)" />
-      <item itemvalue="Go Build.go build main.go (4)" />
-      <item itemvalue="Go Build.go build main.go (5)" />
+      <item itemvalue="Go Build.go build GoBase/" />
+      <item itemvalue="Go Build.go build atom_1.go" />
+      <item itemvalue="Go Build.go build sync_1.go" />
+      <item itemvalue="Go Build.go build sync_2.go" />
+      <item itemvalue="Go Build.go build sync_3.go" />
+      <item itemvalue="Go Build.go build sync_4.go" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Go Build.go build main.go (5)" />
-        <item itemvalue="Go Build.go build main.go (4)" />
-        <item itemvalue="Go Build.go build main.go (3)" />
-        <item itemvalue="Go Build.go build main.go (2)" />
-        <item itemvalue="Go Build.go build main.go (1)" />
+        <item itemvalue="Go Build.go build atom_1.go" />
+        <item itemvalue="Go Build.go build sync_4.go" />
+        <item itemvalue="Go Build.go build sync_3.go" />
+        <item itemvalue="Go Build.go build sync_2.go" />
+        <item itemvalue="Go Build.go build sync_1.go" />
       </list>
     </recent_temporary>
   </component>
@@ -134,7 +196,17 @@
       <option name="presentableId" value="Default" />
       <updated>1726748944159</updated>
       <workItem from="1726748947278" duration="7979000" />
-      <workItem from="1728357398363" duration="42015000" />
+      <workItem from="1728357398363" duration="83440000" />
+      <workItem from="1729153529051" duration="1171000" />
+      <workItem from="1729216097526" duration="137000" />
+      <workItem from="1729216263999" duration="19000" />
+      <workItem from="1729216320000" duration="1058000" />
+      <workItem from="1729217413296" duration="241000" />
+      <workItem from="1729217674812" duration="199000" />
+      <workItem from="1729217878109" duration="132000" />
+      <workItem from="1729218028509" duration="573000" />
+      <workItem from="1729218622151" duration="1132000" />
+      <workItem from="1729219759941" duration="8918000" />
     </task>
     <servers />
   </component>
@@ -142,6 +214,11 @@
     <option name="version" value="3" />
   </component>
   <component name="VgoProject">
+    <integration-enabled>false</integration-enabled>
     <settings-migrated>true</settings-migrated>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
