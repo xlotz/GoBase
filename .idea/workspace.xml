@@ -5,7 +5,254 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="64fa3b4f-8e92-4d27-a03e-c5a177e4bb46" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/src/23_model/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/23_model/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/01_go_root_sdk.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/02_go_path.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/03_go_mod.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Libs_test/encode_json.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Libs_test/encode_protocol_buffers.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Libs_test/encode_xml.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Libs_test/encode_yml.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Libs_test/flag_1.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Libs_test/http_client.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Libs_test/http_get.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Libs_test/http_post.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Libs_test/http_server.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Libs_test/log_1.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Libs_test/time_1.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Libs_test/unsafe_1.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/file/config.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/file/person.proto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/go_base/0_Hello/example/SayHello.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/go_base/0_Hello/go.mod" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/go_base/0_Hello/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/go_base/10_Map/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/go_base/10_Map/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/go_base/11_Point/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/go_base/11_Point/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/go_base/12_Func/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/go_base/12_Func/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/go_base/13_Struct/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/go_base/14_Method/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/go_base/14_Method/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/go_base/15_Interface/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/go_base/15_Interface/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/go_base/16_Generic/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/go_base/16_Generic/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/go_base/17_Iter/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/go_base/17_Iter/iterx/Iterx.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/go_base/17_Iter/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/go_base/18_Type_2/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/go_base/19_Error/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/go_base/19_Error/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/go_base/1_Base/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/go_base/1_Base/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/go_base/20_File/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/go_base/20_File/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/go_base/21_Reflect/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/go_base/21_Reflect/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/go_base/22_Concurrent/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/go_base/22_Concurrent/atom_1.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/go_base/22_Concurrent/chan_1.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/go_base/22_Concurrent/chan_2.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/go_base/22_Concurrent/chan_3.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/go_base/22_Concurrent/chan_4.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/go_base/22_Concurrent/chan_5.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/go_base/22_Concurrent/chan_6.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/go_base/22_Concurrent/chan_7.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/go_base/22_Concurrent/context_1.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/go_base/22_Concurrent/context_2.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/go_base/22_Concurrent/context_3.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/go_base/22_Concurrent/context_4.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/go_base/22_Concurrent/coroutine_1.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/go_base/22_Concurrent/lock_1.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/go_base/22_Concurrent/lock_2.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/go_base/22_Concurrent/lock_3.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/go_base/22_Concurrent/lock_4.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/go_base/22_Concurrent/lock_5.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/go_base/22_Concurrent/sync_1.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/go_base/22_Concurrent/sync_2.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/go_base/22_Concurrent/sync_3.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/go_base/22_Concurrent/sync_4.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/go_base/22_Concurrent/waitgroup.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/go_base/23_model/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/go_base/24_Test/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/go_base/2_Type/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/go_base/3_Const/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/go_base/3_Const/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/go_base/4_Var/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/go_base/4_Var/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/go_base/5_In_Out/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/go_base/5_In_Out/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/go_base/6_Case/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/go_base/6_Case/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/go_base/7_For/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/go_base/7_For/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/go_base/7days-golang/day1-http-base/base_1.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/go_base/8_Array/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/go_base/8_Array/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/go_base/8_Slice/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/go_base/8_Slice/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/go_base/9_Str/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/go_base/9_Str/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/go_test/01_getting-sharted/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/go_test/02_package/icome/name1.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/go_test/02_package/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/go_test/02_package/stringutil/name2.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/go_test/02_package/stringutil/reverse.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/go_test/02_package/stringutil/reverseTwo.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/go_test/03_variables/01_short/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/go_test/03_variables/02_zero-value/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/go_test/03_variables/03_less-emphasis/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/go_test/04_scope/01_package/01_package/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/go_test/04_scope/01_package/02_vis/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/go_test/04_scope/01_package/02_vis/vis/name.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/go_test/04_scope/01_package/02_vis/vis/printer.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/go_test/04_scope/02_block/01_this/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/go_test/04_scope/02_block/02_closure/01/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/go_test/04_scope/02_block/02_closure/02/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/go_test/04_scope/02_block/02_closure/03/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/go_test/04_scope/02_block/02_closure/04/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/go_test/04_scope/03_order/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/go_test/04_scope/04_variable/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/go_test/04_scope/05_same/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/go_test/04_scope/05_same/same.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/go_test/05_blank/01_invalid/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/go_test/05_blank/02_http_get/01_with-error/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/go_test/05_blank/02_http_get/02_no-error/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/go_test/06_constants/01_constant/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/go_test/06_constants/02_multiple/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/go_test/06_constants/03_iota/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/go_test/07_memory-address/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/go_test/08_pointers/01_no-pointer/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/go_test/08_pointers/02_pointer/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/go_test/09_remainder/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/go_test/10_for-loop/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/go_test/11_switch/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/go_test/11_switch/type.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/go_test/12_if/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/go_test/13_exercise/01_benchMark/bm_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/go_test/13_exercise/02_benchMark/bm_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/go_test/13_exercise/03_utf/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/go_test/13_exercise/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/go_test/14_functions/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/go_test/15_bool-expressions/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/go_test/16_exercise-solutions/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/go_test/17_array/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/go_test/18_slice/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/go_test/19_map/02_hash/01_hash-letter.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/go_test/19_map/02_hash/02_hash-remainder.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/go_test/19_map/02_hash/03_even-dst.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/go_test/19_map/02_hash/04_slice.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/go_test/19_map/02_hash/05_map.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/go_test/19_map/03_alphabet/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/go_test/19_map/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/go_test/20_struct/02_user-defined/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/go_test/20_struct/03_methods/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/go_test/20_struct/04_embedded/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/go_test/20_struct/05_promotion/01_overriding-fields/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/go_test/20_struct/05_promotion/02_overriding-methods/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/go_test/20_struct/06_truct-pointer/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/go_test/20_struct/07_marshal/01_marshal/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/go_test/20_struct/07_marshal/02_unmarshal/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/go_test/20_struct/08_encode_decode/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/go_test/21_interfaces/01_interface/01_no-interface/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/go_test/21_interfaces/01_interface/02_interface/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/go_test/21_interfaces/01_interface/05_io-copy/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/go_test/21_interfaces/02_package-sort/01_sort-names/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/go_test/21_interfaces/02_package-sort/02_sort-names_type-stringslice/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/go_test/21_interfaces/03_empty-interface/01_no-interface/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/go_test/21_interfaces/03_empty-interface/03_param-accepts/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/go_test/21_interfaces/04_method-sets/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/go_test/21_interfaces/05_conversion-vs-assertion/01_conversion/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/go_test/21_interfaces/05_conversion-vs-assertion/02_assertion/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/go_test/22_go-routines/01_go/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/go_test/22_go-routines/06_race-condition/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/go_test/22_go-routines/07_mutex/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/go_test/22_go-routines/08_atomicity/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/go_test/22_go-routines/09_channels/00_unbuffered-channels/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/go_test/22_go-routines/09_channels/01_range/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/go_test/22_go-routines/09_channels/02_n-to-1/01_race-condition/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/go_test/22_go-routines/09_channels/02_n-to-1/02_wait-group/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/go_test/22_go-routines/09_channels/02_n-to-1/03_semaphore/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/go_test/22_go-routines/09_channels/02_n-to-1/04_semaphore_wrong-way/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/go_test/go.mod" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/proto/person.proto" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestW.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/0_Hello/example/SayHello.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/0_Hello/main.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/10_Map/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/10_Map/main.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/11_Point/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/11_Point/main.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/12_Func/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/12_Func/main.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/13_Struct/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/14_Method/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/14_Method/main.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/15_Interface/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/15_Interface/main.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/16_Generic/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/16_Generic/main.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/17_Iter/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/17_Iter/iterx/Iterx.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/17_Iter/main.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/18_Type_2/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/19_Error/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/19_Error/main.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/1_Base/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/1_Base/main.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/20_File/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/20_File/main.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/21_Reflect/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/21_Reflect/main.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/22_Concurrent/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/22_Concurrent/atom_1.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/22_Concurrent/chan_1.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/22_Concurrent/chan_2.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/22_Concurrent/chan_3.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/22_Concurrent/chan_4.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/22_Concurrent/chan_5.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/22_Concurrent/chan_6.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/22_Concurrent/chan_7.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/22_Concurrent/context_1.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/22_Concurrent/context_2.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/22_Concurrent/context_3.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/22_Concurrent/context_4.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/22_Concurrent/coroutine_1.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/22_Concurrent/lock_1.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/22_Concurrent/lock_2.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/22_Concurrent/lock_3.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/22_Concurrent/lock_4.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/22_Concurrent/lock_5.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/22_Concurrent/sync_1.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/22_Concurrent/sync_2.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/22_Concurrent/sync_3.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/22_Concurrent/sync_4.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/22_Concurrent/waitgroup.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/23_model/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/24_Test/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/2_Type/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/3_Const/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/3_Const/main.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/4_Var/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/4_Var/main.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/5_In_Out/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/5_In_Out/main.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/6_Case/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/6_Case/main.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/7_For/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/7_For/main.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/8_Array/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/8_Array/main.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/8_Slice/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/8_Slice/main.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/9_Str/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/9_Str/main.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test.txt" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,9 +270,6 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GoLibraries">
-    <option name="indexEntireGoPath" value="true" />
-  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -33,12 +277,16 @@
     <option name="version" value="2" />
   </component>
   <component name="ProjectId" id="2mI0mfN7WPy6aFPmJDaWL6knFy0" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="flattenPackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
     &quot;DefaultGoTemplateProperty&quot;: &quot;Go File&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
@@ -47,7 +295,7 @@
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;configurable..is.expanded&quot;: &quot;true&quot;,
     &quot;go.import.settings.migrated&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/xiaoqiang/project/goproject/GoBase&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/xiaoqiang/project/goproject/GoBase/src/proto&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -57,20 +305,27 @@
     &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
     &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;com.goide.configuration.GoLibrariesConfigurableProvider&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;go.vgo&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/proto" />
       <recent name="$PROJECT_DIR$/src/24_Test" />
       <recent name="$PROJECT_DIR$/src/23_model" />
       <recent name="$PROJECT_DIR$/src/22_Concurrent" />
       <recent name="$PROJECT_DIR$/src/21_Reflect" />
-      <recent name="$PROJECT_DIR$/src/20_File" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/go_test/21_interfaces/01_interface" />
+      <recent name="$PROJECT_DIR$/src/go_test/13_exercise/01_benchMark" />
+      <recent name="$PROJECT_DIR$/src/go_test/08_pointers/01_no-pointer" />
+      <recent name="$PROJECT_DIR$/src/go_test/04_scope" />
+      <recent name="$PROJECT_DIR$/src/go_test/04_scope/02_block/02_closure/01" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Build.go build atom_1.go">
+  <component name="RunManager" selected="Go Build.go build main.go (2)">
     <configuration default="true" type="GoApplicationRunConfiguration" factoryName="Go Application" singleton="false">
       <working_directory value="$PROJECT_DIR$" />
       <kind value="DIRECTORY" />
@@ -88,66 +343,66 @@
       <filePath value="$PROJECT_DIR$/../GoBase|$PROJECT_DIR$/src/22_Concurrent/chan_7.go" />
       <method v="2" />
     </configuration>
-    <configuration name="go build atom_1.go" type="GoApplicationRunConfiguration" factoryName="Go Application" singleton="false" temporary="true" nameIsGenerated="true">
+    <configuration name="go build main.go (1)" type="GoApplicationRunConfiguration" factoryName="Go Application" singleton="false" temporary="true" nameIsGenerated="true">
       <module name="GoBase" />
-      <working_directory value="$PROJECT_DIR$" />
+      <working_directory value="$PROJECT_DIR$/src/go_test" />
       <kind value="FILE" />
       <package value="HelloWorld" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/src/22_Concurrent/atom_1.go" />
+      <filePath value="$PROJECT_DIR$/src/go_test/22_go-routines/09_channels/02_n-to-1/03_semaphore/main.go" />
       <method v="2" />
     </configuration>
-    <configuration name="go build sync_1.go" type="GoApplicationRunConfiguration" factoryName="Go Application" singleton="false" temporary="true" nameIsGenerated="true">
+    <configuration name="go build main.go (2)" type="GoApplicationRunConfiguration" factoryName="Go Application" singleton="false" temporary="true" nameIsGenerated="true">
       <module name="GoBase" />
-      <working_directory value="$PROJECT_DIR$" />
+      <working_directory value="$PROJECT_DIR$/src/go_test" />
       <kind value="FILE" />
       <package value="HelloWorld" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/src/22_Concurrent/sync_1.go" />
+      <filePath value="$PROJECT_DIR$/src/go_test/22_go-routines/09_channels/02_n-to-1/05_n-times_to_1/main.go" />
       <method v="2" />
     </configuration>
-    <configuration name="go build sync_2.go" type="GoApplicationRunConfiguration" factoryName="Go Application" singleton="false" temporary="true" nameIsGenerated="true">
+    <configuration name="go build main.go (3)" type="GoApplicationRunConfiguration" factoryName="Go Application" singleton="false" temporary="true" nameIsGenerated="true">
       <module name="GoBase" />
-      <working_directory value="$PROJECT_DIR$" />
+      <working_directory value="$PROJECT_DIR$/src/go_test" />
       <kind value="FILE" />
       <package value="HelloWorld" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/src/22_Concurrent/sync_2.go" />
+      <filePath value="$PROJECT_DIR$/src/go_test/22_go-routines/09_channels/02_n-to-1/01_race-condition/main.go" />
       <method v="2" />
     </configuration>
-    <configuration name="go build sync_3.go" type="GoApplicationRunConfiguration" factoryName="Go Application" singleton="false" temporary="true" nameIsGenerated="true">
+    <configuration name="go build main.go (5)" type="GoApplicationRunConfiguration" factoryName="Go Application" singleton="false" temporary="true" nameIsGenerated="true">
       <module name="GoBase" />
-      <working_directory value="$PROJECT_DIR$" />
+      <working_directory value="$PROJECT_DIR$/src/go_test" />
       <kind value="FILE" />
       <package value="HelloWorld" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/src/22_Concurrent/sync_3.go" />
+      <filePath value="$PROJECT_DIR$/src/go_test/22_go-routines/09_channels/02_n-to-1/04_semaphore_wrong-way/main.go" />
       <method v="2" />
     </configuration>
-    <configuration name="go build sync_4.go" type="GoApplicationRunConfiguration" factoryName="Go Application" singleton="false" temporary="true" nameIsGenerated="true">
+    <configuration name="go build main.go" type="GoApplicationRunConfiguration" factoryName="Go Application" singleton="false" temporary="true" nameIsGenerated="true">
       <module name="GoBase" />
-      <working_directory value="$PROJECT_DIR$" />
+      <working_directory value="$PROJECT_DIR$/src/go_test" />
       <kind value="FILE" />
       <package value="HelloWorld" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/src/22_Concurrent/sync_4.go" />
+      <filePath value="$PROJECT_DIR$/src/go_test/22_go-routines/09_channels/02_n-to-1/02_wait-group/main.go" />
       <method v="2" />
     </configuration>
     <list>
       <item itemvalue="Go Build.go build GoBase/" />
-      <item itemvalue="Go Build.go build atom_1.go" />
-      <item itemvalue="Go Build.go build sync_1.go" />
-      <item itemvalue="Go Build.go build sync_2.go" />
-      <item itemvalue="Go Build.go build sync_3.go" />
-      <item itemvalue="Go Build.go build sync_4.go" />
+      <item itemvalue="Go Build.go build main.go (5)" />
+      <item itemvalue="Go Build.go build main.go" />
+      <item itemvalue="Go Build.go build main.go (3)" />
+      <item itemvalue="Go Build.go build main.go (1)" />
+      <item itemvalue="Go Build.go build main.go (2)" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Go Build.go build atom_1.go" />
-        <item itemvalue="Go Build.go build sync_4.go" />
-        <item itemvalue="Go Build.go build sync_3.go" />
-        <item itemvalue="Go Build.go build sync_2.go" />
-        <item itemvalue="Go Build.go build sync_1.go" />
+        <item itemvalue="Go Build.go build main.go (2)" />
+        <item itemvalue="Go Build.go build main.go (5)" />
+        <item itemvalue="Go Build.go build main.go (1)" />
+        <item itemvalue="Go Build.go build main.go" />
+        <item itemvalue="Go Build.go build main.go (3)" />
       </list>
     </recent_temporary>
   </component>
@@ -170,15 +425,23 @@
       <workItem from="1729217878109" duration="132000" />
       <workItem from="1729218028509" duration="573000" />
       <workItem from="1729218622151" duration="1132000" />
-      <workItem from="1729219759941" duration="9230000" />
+      <workItem from="1729219759941" duration="21659000" />
+      <workItem from="1729666008914" duration="616000" />
+      <workItem from="1729842218346" duration="4197000" />
+      <workItem from="1730273840205" duration="2954000" />
+      <workItem from="1730340295188" duration="5390000" />
+      <workItem from="1730706763409" duration="7343000" />
+      <workItem from="1730860385390" duration="26289000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
   <component name="VgoProject">
-    <integration-enabled>false</integration-enabled>
     <settings-migrated>true</settings-migrated>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
