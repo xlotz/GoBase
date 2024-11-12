@@ -82,7 +82,10 @@ go学习记录
         return total / float64(len(sf))
     }
 
+### struct
+#### 
 
 ### interface
 
+### go
 ### go
