@@ -5,8 +5,42 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="64fa3b4f-8e92-4d27-a03e-c5a177e4bb46" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/Libs_test/file/config.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Libs_test/go.mod" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Libs_test/go.sum" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Libs_test/proto/person.proto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/go_test/22_go-routines/09_channels/03_1-to-n/01_1-to-2/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/go_test/22_go-routines/09_channels/03_1-to-n/02_1-to-n/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/go_test/22_go-routines/09_channels/04_pass-return/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/go_test/22_go-routines/09_channels/05_channel-dir/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/go_test/22_go-routines/09_channels/06_refactor/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/go_test/22_go-routines/09_channels/07_incremenntor/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/go_test/22_go-routines/09_channels/08_closures/01_no-closure-binding/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/go_test/22_go-routines/09_channels/08_closures/02_closure-binding/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/go_test/22_go-routines/09_channels/08_closures/03_closure-binding/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/go_test/22_go-routines/10_deadlock/01_deadlock/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/go_test/22_go-routines/10_deadlock/02_deadlock/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/go_test/22_go-routines/11_factorial/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/go_test/22_go-routines/12_channels_pipeline/01_queue/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/go_test/22_go-routines/12_channels_pipeline/02_queue/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/go_test/22_go-routines/12_channels_pipeline/03_challenge/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/go_test/22_go-routines/12_channels_pipeline/04_challenge/01_original/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/go_test/22_go-routines/12_channels_pipeline/04_challenge/02_another/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/go_test/22_go-routines/13_channels_fan/01_boring/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/go_test/22_go-routines/13_channels_fan/02_sq-output/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/go_test/23_error-handing/01_goint/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/go_test/23_error-handing/02_err-not-nil/03_log-set-output/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/go_test/23_error-handing/02_err-not-nil/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/go_test/23_error-handing/03_custom-errors/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/go_test/24_testing/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/go_test/24_testing/main_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/go_test/log.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Libs_test/encode_protocol_buffers.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/Libs_test/encode_protocol_buffers.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/file/config.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/file/person.proto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/proto/person.proto" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,14 +106,14 @@
       <recent name="$PROJECT_DIR$/src/21_Reflect" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/Libs_test" />
+      <recent name="$PROJECT_DIR$/src/go_test/23_error-handing/02_err-not-nil" />
       <recent name="$PROJECT_DIR$/src/go_test/21_interfaces/01_interface" />
       <recent name="$PROJECT_DIR$/src/go_test/13_exercise/01_benchMark" />
       <recent name="$PROJECT_DIR$/src/go_test/08_pointers/01_no-pointer" />
-      <recent name="$PROJECT_DIR$/src/go_test/04_scope" />
-      <recent name="$PROJECT_DIR$/src/go_test/04_scope/02_block/02_closure/01" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Build.go build main.go (2)">
+  <component name="RunManager" selected="Go Build.go build encode_protocol_buffers.go">
     <configuration default="true" type="GoApplicationRunConfiguration" factoryName="Go Application" singleton="false">
       <working_directory value="$PROJECT_DIR$" />
       <kind value="DIRECTORY" />
@@ -97,31 +131,22 @@
       <filePath value="$PROJECT_DIR$/../GoBase|$PROJECT_DIR$/src/22_Concurrent/chan_7.go" />
       <method v="2" />
     </configuration>
+    <configuration name="go build encode_protocol_buffers.go" type="GoApplicationRunConfiguration" factoryName="Go Application" singleton="false" temporary="true" nameIsGenerated="true">
+      <module name="GoBase" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <package value="HelloWorld" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/src/Libs_test/encode_protocol_buffers.go" />
+      <method v="2" />
+    </configuration>
     <configuration name="go build main.go (1)" type="GoApplicationRunConfiguration" factoryName="Go Application" singleton="false" temporary="true" nameIsGenerated="true">
       <module name="GoBase" />
       <working_directory value="$PROJECT_DIR$/src/go_test" />
       <kind value="FILE" />
       <package value="HelloWorld" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/src/go_test/22_go-routines/09_channels/02_n-to-1/03_semaphore/main.go" />
-      <method v="2" />
-    </configuration>
-    <configuration name="go build main.go (2)" type="GoApplicationRunConfiguration" factoryName="Go Application" singleton="false" temporary="true" nameIsGenerated="true">
-      <module name="GoBase" />
-      <working_directory value="$PROJECT_DIR$/src/go_test" />
-      <kind value="FILE" />
-      <package value="HelloWorld" />
-      <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/src/go_test/22_go-routines/09_channels/02_n-to-1/05_n-times_to_1/main.go" />
-      <method v="2" />
-    </configuration>
-    <configuration name="go build main.go (3)" type="GoApplicationRunConfiguration" factoryName="Go Application" singleton="false" temporary="true" nameIsGenerated="true">
-      <module name="GoBase" />
-      <working_directory value="$PROJECT_DIR$/src/go_test" />
-      <kind value="FILE" />
-      <package value="HelloWorld" />
-      <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/src/go_test/22_go-routines/09_channels/02_n-to-1/01_race-condition/main.go" />
+      <filePath value="$PROJECT_DIR$/src/go_test/23_error-handing/03_log-set-output/main.go" />
       <method v="2" />
     </configuration>
     <configuration name="go build main.go (5)" type="GoApplicationRunConfiguration" factoryName="Go Application" singleton="false" temporary="true" nameIsGenerated="true">
@@ -130,7 +155,7 @@
       <kind value="FILE" />
       <package value="HelloWorld" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/src/go_test/22_go-routines/09_channels/02_n-to-1/04_semaphore_wrong-way/main.go" />
+      <filePath value="$PROJECT_DIR$/src/go_test/23_error-handing/03_custom-errors/main.go" />
       <method v="2" />
     </configuration>
     <configuration name="go build main.go" type="GoApplicationRunConfiguration" factoryName="Go Application" singleton="false" temporary="true" nameIsGenerated="true">
@@ -139,24 +164,35 @@
       <kind value="FILE" />
       <package value="HelloWorld" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/src/go_test/22_go-routines/09_channels/02_n-to-1/02_wait-group/main.go" />
+      <filePath value="$PROJECT_DIR$/src/go_test/23_error-handing/02_err-not-nil/main.go" />
+      <method v="2" />
+    </configuration>
+    <configuration name="main_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="GoBase" />
+      <working_directory value="$PROJECT_DIR$/src/go_test/24_testing" />
+      <root_directory value="$PROJECT_DIR$/src/go_test" />
+      <kind value="FILE" />
+      <package value="HelloWorld" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/src/go_test/24_testing/main_test.go" />
+      <framework value="gotest" />
       <method v="2" />
     </configuration>
     <list>
       <item itemvalue="Go Build.go build GoBase/" />
+      <item itemvalue="Go Build.go build encode_protocol_buffers.go" />
       <item itemvalue="Go Build.go build main.go (5)" />
       <item itemvalue="Go Build.go build main.go" />
-      <item itemvalue="Go Build.go build main.go (3)" />
       <item itemvalue="Go Build.go build main.go (1)" />
-      <item itemvalue="Go Build.go build main.go (2)" />
+      <item itemvalue="Go Test.main_test.go" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Go Build.go build main.go (2)" />
+        <item itemvalue="Go Build.go build encode_protocol_buffers.go" />
+        <item itemvalue="Go Test.main_test.go" />
         <item itemvalue="Go Build.go build main.go (5)" />
         <item itemvalue="Go Build.go build main.go (1)" />
         <item itemvalue="Go Build.go build main.go" />
-        <item itemvalue="Go Build.go build main.go (3)" />
       </list>
     </recent_temporary>
   </component>
@@ -185,7 +221,7 @@
       <workItem from="1730273840205" duration="2954000" />
       <workItem from="1730340295188" duration="5390000" />
       <workItem from="1730706763409" duration="7343000" />
-      <workItem from="1730860385390" duration="27992000" />
+      <workItem from="1730860385390" duration="41921000" />
     </task>
     <servers />
   </component>
